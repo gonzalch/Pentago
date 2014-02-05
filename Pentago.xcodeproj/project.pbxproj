@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECF184A16C2242600F822B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF184916C2242600F822B3 /* UIKit.framework */; };
+		3ECF184C16C2242600F822B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF184B16C2242600F822B3 /* Foundation.framework */; };
+		3ECF184E16C2242600F822B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF184D16C2242600F822B3 /* CoreGraphics.framework */; };
+		3ECF185416C2242600F822B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF185216C2242600F822B3 /* InfoPlist.strings */; };
+		3ECF185616C2242600F822B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF185516C2242600F822B3 /* main.m */; };
+		3ECF185A16C2242600F822B3 /* PentagoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF185916C2242600F822B3 /* PentagoAppDelegate.m */; };
+		3ECF185D16C2242600F822B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF185B16C2242600F822B3 /* MainStoryboard.storyboard */; };
+		3ECF186016C2242600F822B3 /* PentagoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF185F16C2242600F822B3 /* PentagoViewController.m */; };
+		3ECF186816C2254000F822B3 /* PentagoSubboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF186716C2254000F822B3 /* PentagoSubboardViewController.m */; };
+		3ECF186B16C2285100F822B3 /* PentagoBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF186A16C2285100F822B3 /* PentagoBrain.m */; };
+		3ECF186F16C22B8100F822B3 /* redMarble.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF186C16C22B8100F822B3 /* redMarble.png */; };
+		3ECF187016C22B8100F822B3 /* greenMarble.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF186D16C22B8100F822B3 /* greenMarble.png */; };
+		3ECF187116C22B8100F822B3 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF186E16C22B8100F822B3 /* grid.png */; };
+		8390A8FC16CEE0ED00E51537 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8390A8FB16CEE0EC00E51537 /* QuartzCore.framework */; };
+		83FEC2BF16CF2473000B6187 /* Marble.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FEC2BE16CF2473000B6187 /* Marble.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ECF184516C2242600F822B3 /* Pentago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pentago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECF184916C2242600F822B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3ECF184B16C2242600F822B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3ECF184D16C2242600F822B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3ECF185116C2242600F822B3 /* Pentago-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pentago-Info.plist"; sourceTree = "<group>"; };
+		3ECF185316C2242600F822B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3ECF185516C2242600F822B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ECF185716C2242600F822B3 /* Pentago-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pentago-Prefix.pch"; sourceTree = "<group>"; };
+		3ECF185816C2242600F822B3 /* PentagoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PentagoAppDelegate.h; sourceTree = "<group>"; };
+		3ECF185916C2242600F822B3 /* PentagoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PentagoAppDelegate.m; sourceTree = "<group>"; };
+		3ECF185C16C2242600F822B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3ECF185E16C2242600F822B3 /* PentagoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PentagoViewController.h; sourceTree = "<group>"; };
+		3ECF185F16C2242600F822B3 /* PentagoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PentagoViewController.m; sourceTree = "<group>"; };
+		3ECF186616C2254000F822B3 /* PentagoSubboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PentagoSubboardViewController.h; sourceTree = "<group>"; };
+		3ECF186716C2254000F822B3 /* PentagoSubboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PentagoSubboardViewController.m; sourceTree = "<group>"; };
+		3ECF186916C2285100F822B3 /* PentagoBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PentagoBrain.h; sourceTree = "<group>"; };
+		3ECF186A16C2285100F822B3 /* PentagoBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PentagoBrain.m; sourceTree = "<group>"; };
+		3ECF186C16C22B8100F822B3 /* redMarble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redMarble.png; sourceTree = "<group>"; };
+		3ECF186D16C22B8100F822B3 /* greenMarble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenMarble.png; sourceTree = "<group>"; };
+		3ECF186E16C22B8100F822B3 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		8390A8FB16CEE0EC00E51537 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83FEC2BD16CF2473000B6187 /* Marble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marble.h; sourceTree = "<group>"; };
+		83FEC2BE16CF2473000B6187 /* Marble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Marble.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECF184216C2242600F822B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8390A8FC16CEE0ED00E51537 /* QuartzCore.framework in Frameworks */,
+				3ECF184A16C2242600F822B3 /* UIKit.framework in Frameworks */,
+				3ECF184C16C2242600F822B3 /* Foundation.framework in Frameworks */,
+				3ECF184E16C2242600F822B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECF183A16C2242600F822B3 = {
+			isa = PBXGroup;
+			children = (
+				8390A8FB16CEE0EC00E51537 /* QuartzCore.framework */,
+				3ECF184F16C2242600F822B3 /* Pentago */,
+				3ECF184816C2242600F822B3 /* Frameworks */,
+				3ECF184616C2242600F822B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECF184616C2242600F822B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF184516C2242600F822B3 /* Pentago.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECF184816C2242600F822B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF184916C2242600F822B3 /* UIKit.framework */,
+				3ECF184B16C2242600F822B3 /* Foundation.framework */,
+				3ECF184D16C2242600F822B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ECF184F16C2242600F822B3 /* Pentago */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF185816C2242600F822B3 /* PentagoAppDelegate.h */,
+				3ECF185916C2242600F822B3 /* PentagoAppDelegate.m */,
+				3ECF185B16C2242600F822B3 /* MainStoryboard.storyboard */,
+				3ECF185E16C2242600F822B3 /* PentagoViewController.h */,
+				3ECF185F16C2242600F822B3 /* PentagoViewController.m */,
+				3ECF186616C2254000F822B3 /* PentagoSubboardViewController.h */,
+				3ECF186716C2254000F822B3 /* PentagoSubboardViewController.m */,
+				3ECF186916C2285100F822B3 /* PentagoBrain.h */,
+				3ECF186A16C2285100F822B3 /* PentagoBrain.m */,
+				83FEC2BD16CF2473000B6187 /* Marble.h */,
+				83FEC2BE16CF2473000B6187 /* Marble.m */,
+				3ECF185016C2242600F822B3 /* Supporting Files */,
+			);
+			path = Pentago;
+			sourceTree = "<group>";
+		};
+		3ECF185016C2242600F822B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF186C16C22B8100F822B3 /* redMarble.png */,
+				3ECF186D16C22B8100F822B3 /* greenMarble.png */,
+				3ECF186E16C22B8100F822B3 /* grid.png */,
+				3ECF185116C2242600F822B3 /* Pentago-Info.plist */,
+				3ECF185216C2242600F822B3 /* InfoPlist.strings */,
+				3ECF185516C2242600F822B3 /* main.m */,
+				3ECF185716C2242600F822B3 /* Pentago-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECF184416C2242600F822B3 /* Pentago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECF186316C2242600F822B3 /* Build configuration list for PBXNativeTarget "Pentago" */;
+			buildPhases = (
+				3ECF184116C2242600F822B3 /* Sources */,
+				3ECF184216C2242600F822B3 /* Frameworks */,
+				3ECF184316C2242600F822B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pentago;
+			productName = Pentago;
+			productReference = 3ECF184516C2242600F822B3 /* Pentago.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECF183C16C2242600F822B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Pentago;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SSU;
+			};
+			buildConfigurationList = 3ECF183F16C2242600F822B3 /* Build configuration list for PBXProject "Pentago" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3ECF183A16C2242600F822B3;
+			productRefGroup = 3ECF184616C2242600F822B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECF184416C2242600F822B3 /* Pentago */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECF184316C2242600F822B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF185416C2242600F822B3 /* InfoPlist.strings in Resources */,
+				3ECF185D16C2242600F822B3 /* MainStoryboard.storyboard in Resources */,
+				3ECF186F16C22B8100F822B3 /* redMarble.png in Resources */,
+				3ECF187016C22B8100F822B3 /* greenMarble.png in Resources */,
+				3ECF187116C22B8100F822B3 /* grid.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECF184116C2242600F822B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF185616C2242600F822B3 /* main.m in Sources */,
+				3ECF185A16C2242600F822B3 /* PentagoAppDelegate.m in Sources */,
+				3ECF186016C2242600F822B3 /* PentagoViewController.m in Sources */,
+				3ECF186816C2254000F822B3 /* PentagoSubboardViewController.m in Sources */,
+				3ECF186B16C2285100F822B3 /* PentagoBrain.m in Sources */,
+				83FEC2BF16CF2473000B6187 /* Marble.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3ECF185216C2242600F822B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECF185316C2242600F822B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3ECF185B16C2242600F822B3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECF185C16C2242600F822B3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECF186116C2242600F822B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ECF186216C2242600F822B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECF186416C2242600F822B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pentago/Pentago-Prefix.pch";
+				INFOPLIST_FILE = "Pentago/Pentago-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3ECF186516C2242600F822B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pentago/Pentago-Prefix.pch";
+				INFOPLIST_FILE = "Pentago/Pentago-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECF183F16C2242600F822B3 /* Build configuration list for PBXProject "Pentago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF186116C2242600F822B3 /* Debug */,
+				3ECF186216C2242600F822B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECF186316C2242600F822B3 /* Build configuration list for PBXNativeTarget "Pentago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF186416C2242600F822B3 /* Debug */,
+				3ECF186516C2242600F822B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECF183C16C2242600F822B3 /* Project object */;
+}
